@@ -2,3 +2,4 @@ touch or mkdir  file/dir
 git add <files/dir>
 git commit -m "message"
 git push oring master
+adding patch line
