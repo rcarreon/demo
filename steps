@@ -4,3 +4,24 @@ git commit -m "message"
 git push oring master
 adding patch line
 another patchline
+
+Using branches , here the workflow
+
+# Start a new feature
+git checkout -b new-feature master
+or 
+git branch <name of the branch/feature>
+git checkout <name of the branch>
+
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+
+# Merge in the new-feature branch
+git checkout master
+git merge new-feature
+git branch -d new-feature
