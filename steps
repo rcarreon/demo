@@ -20,7 +20,16 @@ git commit -m "Start a feature"
 
 
 # Merge in the new-feature branch
-git checkout master
-git merge new-feature
+git branch new_branch
+git checkout new_branch
+edit the file 
+git add file 
+git commit -a -m "message"
 git push 
+git checkout master 
+git merge new_branch 
+git push 
+
+
+##this is to create and automagically change to branch 
 git branch -d new-feature
